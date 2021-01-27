@@ -14,8 +14,6 @@
 */
 
 /* ------ 標準入力値の取得（1次元配列） ------ */
-$line = '';
-$inputLine_1array = array();
 while ($line = trim(fgets(STDIN)) ) {
   $inputLine_1array[] = $line;
 }
